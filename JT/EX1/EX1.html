@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	body{
+		background-color:lightsteelblue;
+	}
+	.main {
+         display: flex;
+         justify-content: space-around;
+         width: 100%;
+         height: 100%;
+         
+
+    }
+    div>div{
+    	font-size: 30px;
+    	height: 300px;
+    	width: 200px;
+    	transition: color 2s,width 4s;
+		color: black;
+		background-color: steelblue;
+		border: solid black;
+		border-radius: 20px;
+		box-shadow: 4px 0px 4px #A9A9A9;
+		text-align: center;
+
+
+		}
+    div>div:hover{
+    	height: 400px;
+    	width: 500px;
+    	color: red;
+
+    }
+    .second{
+   
+    	display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    
+    }
+    div>div>img{
+    	border-radius: 20px;
+    	width: 200px;
+    	height: 150px;
+    }
+    div>div>p{
+    	font-size: 20px;
+    }
+
+
+	</style>
+</head>
+<body>
+	
+	<div class="main">
+                <div>
+                	<img src="w3schools_logo.png" alt="logo">
+                	<br>
+                    <a href="https://www.w3schools.com/">w3schools</a>
+                    <p>all about html,javascript,css,...</p>
+                </div>
+                <div>
+                	<img src="stackoverflow.png" alt="logo" >
+                	<br>
+                    <a href="https://stackoverflow.com">stackoverflow</a>
+                    <p>all about html,javascript,css,...</p>
+                </div>
+                <div>
+                	<img src="mediaevent.jpg" alt="logo">
+                	<br>
+                    <a href="https://www.mediaevent.de/tutorial/sonderzeichen.html">html Sonderzeichen</a>
+                    <p>different symbols like stars,..</p>
+                </div>    	
+    </div>
+    <div class="second">
+                <div>
+                	<img src="quakit.png" alt="logo"> 
+                	<br>
+                    <a href="https://www.quackit.com/css/css_color_codes.cfm">CSS Colors</a>
+                    <p>Color Names,HEX and RGB</p>
+                </div>
+                <div>
+                	<img src="defense.jpg" alt="logo">
+                	<br>
+                    <a href="http://www.flexboxdefense.com/">Fexboxgame</a>
+                    <p>Game to try Flexbox</p>
+                </div>
+                <div>
+                	<img src="Froggy.png" alt="logo">
+                	<br>
+                    <a href="https://flexboxfroggy.com/#de">Flexfroggy</a>
+                    <p>Game to try Flexbox</p>
+                </div>    	
+    </div>
+
+</body>
+</html>
